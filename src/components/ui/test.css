@@ -1,0 +1,12 @@
+.custom-pagination {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .custom-pagination .page-item {
+    margin: 0;
+  }
+  
+  .custom-pagination .page-link {
+    padding: 0.5rem;
+  }
