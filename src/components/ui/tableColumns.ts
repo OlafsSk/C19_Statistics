@@ -1,6 +1,7 @@
+//Defenition of table columns
 export interface Column {
-  title: string;
-  dataField?: string;
+  title: string
+  dataField?: string
 }
 
 export const columns: Column[] = [
@@ -11,4 +12,4 @@ export const columns: Column[] = [
   { dataField: 'totalDeaths', title: 'Nāves gadījumu skaits kopā' },
   { dataField: 'casesPer1000', title: 'Gadījumu skaits uz 1000 iedzīvotājiem' },
   { dataField: 'deathsPer1000', title: 'Nāves gadījumu skaits uz 1000 iedzīvotājiem' }
-];
+]
